@@ -35,6 +35,9 @@ config: dict[str, dict[str, t.Any]] = {
         "DOCKER_IMAGE": "docker.io/minio/minio:RELEASE.2022-03-26T06-49-28Z.hotfix.26ec6a857",
         "MC_DOCKER_IMAGE": "docker.io/minio/mc:RELEASE.2022-03-31T04-55-30Z",
         "GATEWAY": None,
+        "UAMX_NAMESPACE": None,
+        "UAMX_STORAGECLASSNAME": None,
+        "UAMX_STORAGE": "5Gi",
         "DISCOVERY_BUCKET_NAME": "{% if 'discovery' in PLUGINS %}discoveryuploads{% endif %}",
     },
     "unique": {

@@ -38,7 +38,7 @@ dev = [
 ]
 
 [project.entry-points."tutor.plugin.v1"]
-minio = "tutorminio.plugin"
+uamx-minio = "tutorminio.plugin"
 
 # https://packaging.python.org/en/latest/specifications/well-known-project-urls/#well-known-labels
 [project.urls]
